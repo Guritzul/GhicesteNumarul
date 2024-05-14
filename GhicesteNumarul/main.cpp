@@ -14,7 +14,7 @@ int main()
 
 		int NumarUtilizator = PresupunereUtilizator;
 
-		if (NumarDeGhicit == NumarDeGhicit)
+		if (NumarDeGhicit == NumarUtilizator)
 		{
 			std::cout << "Bravo, ai ghicit numarul\n";
 			std::cout << "Vrei sa joci din nou?(y/n)\n";
@@ -33,11 +33,11 @@ int main()
 				ContinuaSaJoci = false;
 			}
 		}
-		else if (NumarDeGhicit > NumarDeGhicit)
+		else if (NumarUtilizator > NumarDeGhicit)
 		{
 			std::cout << "Numarul de ghicit este mai mic, incearca din nou\n";
 		}
-		else if (NumarDeGhicit < NumarDeGhicit)
+		else if (NumarUtilizator < NumarDeGhicit)
 		{
 			std::cout << "Numarul de ghicit este mai mare, incearca din nou\n";
 		}
